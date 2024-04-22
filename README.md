@@ -1,10 +1,10 @@
-# GreenDB
+# Towards Comprehending Energy Consumption of Database Management Systems - A Tool and Empirical Study
 
-Towards Energy Efficient Databases
+
 
 # Description
 
-GreenDB makes use of the tool, DBJoules, a tool designed to measure the energy consumption of database queries across four databases, i.e., MySQL, PostgreSQL, MongoDB, and Couchbase. This tool measures the energy consumption of queries by gathering the information about CPU and RAM usage, by utilizing psutil package.
+DBJoules is a tool designed to measure the energy consumption of database queries across four databases, i.e., MySQL, PostgreSQL, MongoDB, and Couchbase. This tool measures the energy consumption of queries by gathering the information about CPU and RAM usage, by utilizing psutil package.
 
 # System Requirements
 
