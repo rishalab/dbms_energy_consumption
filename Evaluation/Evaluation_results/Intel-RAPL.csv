@@ -1,0 +1,51 @@
+Query,package_0,package_1,CPU,dram_0,dram_1,RAM,Total,duration
+"select name, state_id from cities where country_id= 1;",2098261,1678768,3.777029,289674,209564,0.499238,4.276267,0.06488776207
+"select name, state_id from cities where country_id= 1;",1563534,1047849,2.611383,181427,123945,0.305372,2.916755,0.03848409653
+"select name, state_id from cities where country_id= 1;",1660946,1141050,2.801996,174864,124068,0.298932,3.100928,0.03815555573
+"select name, state_id from cities where country_id= 1;",1904902,1323850,3.228752,174313,123685,0.297998,3.52675,0.03874492645
+"select name, state_id from cities where country_id= 1;",2161799,1612666,3.774465,179576,131106,0.310682,4.085147,0.04008626938
+"select name, state_id from cities where country_id= 1;",2209833,1655513,3.865346,178766,130218,0.308984,4.17433,0.04032588005
+"select name, state_id from cities where country_id= 1;",2158075,1649654,3.807729,177970,131030,0.309,4.116729,0.03992462158
+"select name, state_id from cities where country_id= 1;",2145624,1554012,3.699636,169448,124328,0.293776,3.993412,0.03809213638
+"select name, state_id from cities where country_id= 1;",2095698,1557797,3.653495,169708,120166,0.289874,3.943369,0.03790926933
+"select name, state_id from cities where country_id= 1;",2140131,1551693,3.691824,170427,124083,0.29451,3.986334,0.03793501854
+"INSERT INTO cities (id,name,state_id,state_code,country_id,country_code,latitude,longitude) VALUES (148591,'John Doe','2824','RM',44,'CL',-33.4251643,-70.7261203) ON DUPLICATE KEY UPDATE id=1499999;",341552,306457,0.648009,48639,36934,0.085573,0.733582,0.01176285744
+"INSERT INTO cities (id,name,state_id,state_code,country_id,country_code,latitude,longitude) VALUES (148591,'John Doe','2824','RM',44,'CL',-33.4251643,-70.7261203) ON DUPLICATE KEY UPDATE id=1499999;",84961,78064,0.163025,13311,9731,0.023042,0.186067,0.003137350082
+"INSERT INTO cities (id,name,state_id,state_code,country_id,country_code,latitude,longitude) VALUES (148591,'John Doe','2824','RM',44,'CL',-33.4251643,-70.7261203) ON DUPLICATE KEY UPDATE id=1499999;",87403,72205,0.159608,13189,6472,0.019661,0.179269,0.002996444702
+"INSERT INTO cities (id,name,state_id,state_code,country_id,country_code,latitude,longitude) VALUES (148591,'John Doe','2824','RM',44,'CL',-33.4251643,-70.7261203) ON DUPLICATE KEY UPDATE id=1499999;",86914,85755,0.172669,13281,9792,0.023073,0.195742,0.003032207489
+"INSERT INTO cities (id,name,state_id,state_code,country_id,country_code,latitude,longitude) VALUES (148591,'John Doe','2824','RM',44,'CL',-33.4251643,-70.7261203) ON DUPLICATE KEY UPDATE id=1499999;",87585,85816,0.173401,13280,9669,0.022949,0.19635,0.003046512604
+"INSERT INTO cities (id,name,state_id,state_code,country_id,country_code,latitude,longitude) VALUES (148591,'John Doe','2824','RM',44,'CL',-33.4251643,-70.7261203) ON DUPLICATE KEY UPDATE id=1499999;",91065,77941,0.169006,13449,9945,0.023394,0.1924,0.002929925919
+"INSERT INTO cities (id,name,state_id,state_code,country_id,country_code,latitude,longitude) VALUES (148591,'John Doe','2824','RM',44,'CL',-33.4251643,-70.7261203) ON DUPLICATE KEY UPDATE id=1499999;",101562,80444,0.182006,13464,9792,0.023256,0.205262,0.002890110016
+"INSERT INTO cities (id,name,state_id,state_code,country_id,country_code,latitude,longitude) VALUES (148591,'John Doe','2824','RM',44,'CL',-33.4251643,-70.7261203) ON DUPLICATE KEY UPDATE id=1499999;",99548,82520,0.182068,8874,9746,0.01862,0.200688,0.002848625183
+"INSERT INTO cities (id,name,state_id,state_code,country_id,country_code,latitude,longitude) VALUES (148591,'John Doe','2824','RM',44,'CL',-33.4251643,-70.7261203) ON DUPLICATE KEY UPDATE id=1499999;",69702,79833,0.149535,9073,9777,0.01885,0.168385,0.002812623978
+"INSERT INTO cities (id,name,state_id,state_code,country_id,country_code,latitude,longitude) VALUES (148591,'John Doe','2824','RM',44,'CL',-33.4251643,-70.7261203) ON DUPLICATE KEY UPDATE id=1499999;",103882,82336,0.186218,14581,9930,0.024511,0.210729,0.002844572067
+UPDATE cities SET country_code = 'AS' WHERE id = 148530;,227599,234985,0.462584,39780,26760,0.06654,0.529124,0.008724927902
+UPDATE cities SET country_code = 'AS' WHERE id = 148530;,95031,79345,0.174376,13189,9761,0.02295,0.197326,0.003145217896
+UPDATE cities SET country_code = 'AS' WHERE id = 148530;,87525,78613,0.166138,13265,10022,0.023287,0.189425,0.003009796143
+UPDATE cities SET country_code = 'AS' WHERE id = 148530;,86487,79468,0.165955,13372,9930,0.023302,0.189257,0.002902269363
+UPDATE cities SET country_code = 'AS' WHERE id = 148530;,83863,78796,0.162659,13311,9762,0.023073,0.185732,0.002898216248
+UPDATE cities SET country_code = 'AS' WHERE id = 148530;,95581,55237,0.150818,13296,6472,0.019768,0.170586,0.002830505371
+UPDATE cities SET country_code = 'AS' WHERE id = 148530;,106933,54687,0.16162,13587,7130,0.020717,0.182337,0.002737283707
+UPDATE cities SET country_code = 'AS' WHERE id = 148530;,105407,78979,0.184386,13372,9761,0.023133,0.207519,0.002803564072
+UPDATE cities SET country_code = 'AS' WHERE id = 148530;,103455,78613,0.182068,9318,9761,0.019079,0.201147,0.002766370773
+UPDATE cities SET country_code = 'AS' WHERE id = 148530;,104431,51086,0.155517,9349,9991,0.01934,0.174857,0.002505779266
+DELETE FROM cities WHERE id = 148530;,257140,209655,0.466795,35297,26347,0.061644,0.528439,0.00879240036
+DELETE FROM cities WHERE id = 148530;,84290,77514,0.161804,13280,9777,0.023057,0.184861,0.003135919571
+DELETE FROM cities WHERE id = 148530;,88134,77698,0.165832,13250,9761,0.023011,0.188843,0.00298166275
+DELETE FROM cities WHERE id = 148530;,86060,80077,0.166137,13280,10404,0.023684,0.189821,0.00292134285
+DELETE FROM cities WHERE id = 148530;,92468,77515,0.169983,13249,9777,0.023026,0.193009,0.002892255783
+DELETE FROM cities WHERE id = 148530;,91004,49683,0.140687,8813,6610,0.015423,0.15611,0.002832174301
+DELETE FROM cities WHERE id = 148530;,92956,80078,0.173034,8981,9746,0.018727,0.191761,0.002819299698
+DELETE FROM cities WHERE id = 148530;,104004,79590,0.183594,13510,9838,0.023348,0.206942,0.002783536911
+DELETE FROM cities WHERE id = 148530;,105591,80200,0.185791,13831,9762,0.023593,0.209384,0.002709388733
+DELETE FROM cities WHERE id = 148530;,104187,79589,0.183776,13464,9777,0.023241,0.207017,0.002770662308
+"SELECT a.state_id, b.country_id FROM cities AS a LEFT JOIN cities AS b ON a.country_id = b.country_id where a.state_id=2824 and a.state_code='RM' and b.state_code='RM';",3793447,2814507,6.607954,480344,342016,0.82236,7.430314,0.1041374207
+"SELECT a.state_id, b.country_id FROM cities AS a LEFT JOIN cities AS b ON a.country_id = b.country_id where a.state_id=2824 and a.state_code='RM' and b.state_code='RM';",3608695,2540399,6.149094,374361,272187,0.646548,6.795642,0.08408236504
+"SELECT a.state_id, b.country_id FROM cities AS a LEFT JOIN cities AS b ON a.country_id = b.country_id where a.state_id=2824 and a.state_code='RM' and b.state_code='RM';",4934924,3631277,8.566201,445995,318148,0.764143,9.330344,0.09740614891
+"SELECT a.state_id, b.country_id FROM cities AS a LEFT JOIN cities AS b ON a.country_id = b.country_id where a.state_id=2824 and a.state_code='RM' and b.state_code='RM';",4822254,3579458,8.401712,397234,291863,0.689097,9.090809,0.08926439285
+"SELECT a.state_id, b.country_id FROM cities AS a LEFT JOIN cities AS b ON a.country_id = b.country_id where a.state_id=2824 and a.state_code='RM' and b.state_code='RM';",4458363,3230766,7.689129,360116,262212,0.622328,8.311457,0.08054113388
+"SELECT a.state_id, b.country_id FROM cities AS a LEFT JOIN cities AS b ON a.country_id = b.country_id where a.state_id=2824 and a.state_code='RM' and b.state_code='RM';",4452564,3346732,7.799296,383999,274314,0.658313,8.457609,0.08287596703
+"SELECT a.state_id, b.country_id FROM cities AS a LEFT JOIN cities AS b ON a.country_id = b.country_id where a.state_id=2824 and a.state_code='RM' and b.state_code='RM';",4570605,3657218,8.227823,388865,329746,0.718611,8.946434,0.08101725578
+"SELECT a.state_id, b.country_id FROM cities AS a LEFT JOIN cities AS b ON a.country_id = b.country_id where a.state_id=2824 and a.state_code='RM' and b.state_code='RM';",4579822,3366934,7.946756,364782,271744,0.636526,8.583282,0.08300304413
+"SELECT a.state_id, b.country_id FROM cities AS a LEFT JOIN cities AS b ON a.country_id = b.country_id where a.state_id=2824 and a.state_code='RM' and b.state_code='RM';",4465992,3299369,7.765361,362946,261753,0.624699,8.39006,0.08075332642
+"SELECT a.state_id, b.country_id FROM cities AS a LEFT JOIN cities AS b ON a.country_id = b.country_id where a.state_id=2824 and a.state_code='RM' and b.state_code='RM';",4414601,3213188,7.627789,358203,261447,0.61965,8.247439,0.07997059822
